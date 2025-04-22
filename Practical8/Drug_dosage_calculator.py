@@ -1,5 +1,5 @@
 # define a function to calculate the recommended dosage of a drug for children 
-# based on their weight and the drug concentration
+# based on their weight and the drug concentration:
 def drug_dosage_calculator(children_weight, drug_concentration):
     # check if the weight is within the valid range
     if children_weight < 10 or children_weight > 100:
