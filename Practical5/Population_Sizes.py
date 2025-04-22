@@ -1,3 +1,4 @@
+# import necessary libraries
 import matplotlib.pyplot as plt
 
 UK_countries = [57.11, 3.13, 1.91, 5.45]
