@@ -1,5 +1,6 @@
-This is an example file for reflection in IBI1_2024-25.
-
 During this course, I have learnt version control, how to navigate Unix-like systems and how to write simple programs in Python.
-
 I have also learnt to rewrite text files and upload it online.
+
+GitHub is useful for file transportation and file sharing. 
+It is a platform that allows users to store, manage, and share code, documentation, and other digital assets. 
+It is a cloud-based service that provides a web interface for file management, version control, and collaboration.
