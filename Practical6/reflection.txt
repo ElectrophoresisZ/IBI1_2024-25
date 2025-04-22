@@ -1,0 +1,6 @@
+Today's practical is much harder than previous ones.
+But, it's much more interesting and more related to our daily life.
+The most important thing I learned from the practical is the overall process of establishing a SIR model.
+If more factors could be included in the model, it will be more intersting and useful.
+I have tried to write a new program which includes the infection rate of vaccinated individuals, but it hasn't been finished.
+I will continue to work on it.
