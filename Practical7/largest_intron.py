@@ -1,4 +1,4 @@
-# import necessary modules
+# import re
 import re
 
 # define sequence
