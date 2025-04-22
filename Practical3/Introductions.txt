@@ -1,4 +1,4 @@
 Hello, my name is Feiyang Zhang.
 I like drinking tea and eating chocolates.
-I am enjoying playing badminton. 
+I am enjoying playing badminton and piano. 
 I am happy that I can push my repo from Visual Studio Code to GitHub
