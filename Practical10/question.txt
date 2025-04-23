@@ -1,0 +1,13 @@
+Q1: What country or countries have recorded a DALYs greater than 650,000 in a single year?
+Q2: Draw boxplots of DALYs across countries from 1990 to 2019.
+
+Discuss (line 42-65): 
+Answer1 (line 53): DALYs are 693367.49 in 1994 in Rwanda. However, before or after 1994, 
+the DALYs in Rwanda are extremely lower than 1994. This may contribute to the
+outbreaks or the statistical errors in the data.
+
+Answer2(line 57-65): Boxplots demonstate that DALYs among all countries were decreasing from
+1990 to 2019. This probably indicated a better healthcare system and  a improved
+treatment of the diseases.
+
+The total program is in Test1.ipynb.
