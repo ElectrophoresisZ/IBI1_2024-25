@@ -1,0 +1,3 @@
+Length: 222
+subcellular location: Mitochondrion matrix
+The range of percentage identities in the reported online BLAST results: 90.1% (human & mouse)
