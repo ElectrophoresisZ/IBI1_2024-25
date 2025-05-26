@@ -1,0 +1,4 @@
+The forked folder has not been updated but there is a new folder that contains the actual work from the practicals: have correctly updated the forked folder with the latest version of the practicals.
+Correct file not in the forked folder: have added in the forked folder.
+There is only one commit message for the practical and it is not very informative – just says previous file. Previous from what?: have updeted the commit message to be more informative.
+no points deducted: I think a figure title would have been useful for the plots, as there are two plots next to each other: have updated titles.
