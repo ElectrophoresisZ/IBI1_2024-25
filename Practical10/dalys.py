@@ -14,7 +14,7 @@ dalys_data = pd.read_csv("dalys-rate-from-all-causes.csv")
 # print required data
 print(dalys_data.iloc[0:10,2])
 print('The 10th year of DALYs data for Afghanistan is:', dalys_data.iloc[9,2])
-print(dalys_data.loc[dalys_data['Year'] == 1990,"DALYs"])
+print(dalys_data.loc[dalys_data['Year'] == 1990, ['Entity', 'DALYs']])
 
 # collect data for United Kingdom and France
 uk = dalys_data.loc[dalys_data['Entity'] == "United Kingdom", ["DALYs", "Year"]]
@@ -65,5 +65,4 @@ plt.title('Boxplot of DALYs (Filter Outliers)')
 plt.xlabel('Year')
 plt.ylabel('DALYs')
 plt.xticks(rotation=90)
-plt.figure(figsize=(12,10))
 plt.show()
