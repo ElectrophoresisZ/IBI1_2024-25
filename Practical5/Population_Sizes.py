@@ -31,6 +31,7 @@ ax1.pie(sizes, explode = explode, labels = labels,
         autopct = '%1.1f%%', colors = colors, 
         shadow = False, startangle = 90)
 ax1.axis('equal')
+ax1.set_title('UK', size=16)
 
 labels = ['Fujian','Jiangxi','Anhui','Zhejiang','Jiangsu']
 sizes = China_provinces_percentage
@@ -40,6 +41,7 @@ ax2.pie(sizes, explode = explode, labels = labels,
         autopct = '%1.1f%%', colors = colors, 
         shadow = False, startangle = 90)
 ax2.axis('equal')
+ax2.set_title('China', size=16)
 
 plt.tight_layout()
 plt.show()

@@ -31,8 +31,4 @@ plt.show()
 select_language = 'select_language'
 #print the percentage of the selected language
 print('The percentage of developer who uses ' + select_language +' is:' + str(program_language[select_language]) + '%.')
-
-
-
-
-    
+ 
