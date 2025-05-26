@@ -2,7 +2,7 @@
 import os
 # change the working directory to the directory where the script is located
 print(os.getcwd())
-os.chdir('C:/Users/Administrator/Desktop/IBI/IBI_practical_2025/Practical7')
+os.chdir('C:/Users/Administrator/Desktop/IBI/IBI/IBI1_2024-25/Practical7')
 
 # import re
 import re
@@ -15,10 +15,11 @@ S_gene_dict = {}
 gene = ''
 
 # read the S gene file and store the sequences in a dictionary
-with open('S_gene.fa', "r") as f:
+with open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa', "r") as f:
     for line in f:
         if re.search(r'>', line):
             gene_name = line.strip().split()[0][1:]
+            gene_name = gene_name.replace('_mRNA', '')
             if gene:
                 S_gene_dict[previous_gene_name] = gene          
             previous_gene_name = gene_name
