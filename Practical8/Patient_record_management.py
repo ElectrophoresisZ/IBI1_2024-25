@@ -5,6 +5,7 @@ class PatientRecord:
         self.name = name
         self.age = age
         self.date_of_latest_admission = date_of_latest_admission
+        self.medical_history = medical_history
 
     # method to get all the information of the patient
     def get_all_info(self):
