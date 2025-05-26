@@ -1,7 +1,6 @@
 # import necessary libraries
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib.cm as cm
 
 # initialize variables
 N = 10000
@@ -59,7 +58,7 @@ for j in range(1,11):
 
 # plot the results and show the plot
 plt.figure(figsize=(7,4),dpi=150)
-colormap = cm.get_cmap('plasma', 10) 
+colormap = plt.get_cmap('plasma', 10) 
 for i in range(11):
     plt.plot(Infected_array[i], label='Vaccination rate = '+str(i*10)+'%', color=colormap(i))
 plt.legend()
