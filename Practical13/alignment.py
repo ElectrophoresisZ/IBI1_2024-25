@@ -1,5 +1,7 @@
 # import the necessary module
 from Bio.Align import substitution_matrices as sm
+import os
+os.chdir( 'C:/Users/Administrator/Desktop/IBI/IBI/IBI1_2024-25/Practical13' )
 
 # read the blosum matrix
 blosum62 = sm.load("BLOSUM62")
